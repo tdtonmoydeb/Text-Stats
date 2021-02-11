@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Text Stats.</h1>
+    <div class="container">
+    <main id="main">
+        <span id="clear" onclick="clearText()">&times;</span>
+        <textarea id="text-box" onkeyup="loadData()" placeholder="Type Or Paste Your Paragraph"></textarea>
+        <div class="nav">
+            <span id="words">0 Words</span>
+            <span id="letter">0 Letters</span>
+        </div>
+    </main>
+    </div>
+<p class="credit">
+    Made With Love By <a href="https://tdtonmoydeb.github.io/tdtonmoydeb" class="link" target="_blank">@tdtonmoydeb</a>
+</p>
+    <script src="app.js"></script>
+</body>
+</html>

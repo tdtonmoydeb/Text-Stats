@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+::-moz-selection {
+  color: #fff;
+  background: #000;
+}
+
+::selection {
+  color: #fff;
+  background: #000;
+}
+
+.container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 5rem 0;
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+  margin-top: 4rem;
+  font-size: 3rem;
+}
+
+#main {
+  background: #fff;
+  position: relative;
+}
+
+#main #clear {
+  position: absolute;
+  top: 0rem;
+  right: 1rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #000;
+  cursor: pointer;
+}
+
+#main #text-box {
+  min-width: 60rem;
+  max-width: 100%;
+  min-height: 20rem;
+  background: #eee;
+  padding: 2rem;
+  font-size: 2rem;
+  margin: 0;
+  border: 2px solid #000;
+  border-radius: 1rem 1rem 0 0;
+}
+
+#main .nav {
+  background: #000;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  border-radius: 0 0 1rem 1rem;
+}
+
+.credit {
+  width: 100%;
+  font-size: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 3rem 1rem;
+  letter-spacing: 0.1rem;
+}
+
+.credit .link {
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.credit .link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 650px) {
+  #main {
+    width: 90%;
+  }
+  #main #text-box {
+    max-width: 100%;
+    min-width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
